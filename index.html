@@ -8,18 +8,22 @@
     <title>Rekenmachine met alleen optellen en aftrekken.</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="rekenmachine">
         <!--Vraag om twee waarden om te kunnen verrekenen-->
-        <label for="eerstewaarde">Vul de eerste waarde in:</label>
-        <input type=text id="eersteWaarde" name='value1' placeholder="vul een numerieke waarde in"><br>
-        <label for="tweedewaarde">Vul de tweede waarde in:</label>
-        <input type="text" name="value2" id="tweedeWaarde" placeholder="vul een numerieke waarde in"><br>
+        <label class = "label" for="eerstewaarde">Vul de eerste waarde in:</label>
+        <input type=text id="eerstewaarde" placeholder="vul een numerieke waarde in"><br>
+        <label class = "label" for="tweedewaarde">Vul de tweede waarde in:</label>
+        <input type="text" id="tweedewaarde" placeholder="vul een numerieke waarde in"><br>
 
         <!--Twee knoppen voor optellen en aftrekken-->
         <button id='optelBtn'>Optellen +</button>
         <button id='aftrekBtn'>Aftrekken -</button>
+
+        <!--Resultaat op scherm zetten-->
+        <p id='result'></p>
     </div>
 </body>
 </html>
