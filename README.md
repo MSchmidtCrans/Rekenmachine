@@ -1,5 +1,7 @@
 # Rekenmachine
 Very simple calculator. Only plus and minus.
+added: 2 extra calculation / and *
+added: reset button and save solution to first value until reset
 
 
 1. Set up skeleton html file. -DONE-
