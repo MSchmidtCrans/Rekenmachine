@@ -10,26 +10,32 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </head>
+<header>
+    <h1>BASIC CALCULATOR</h1>
+</header>
 <body>
     <div class="rekenmachine">
+        <div class = "valEntry">
         <!--Vraag om twee waarden om te kunnen verrekenen-->
         <label class = "label" for="eerstewaarde">Vul de eerste waarde in:</label>
-        <input type=text id="eerstewaarde" placeholder="vul een numerieke waarde in"><br>
+        <input type=text id="eerstewaarde" placeholder="numerieke waarde verplicht"><br>
         <label class = "label" for="tweedewaarde">Vul de tweede waarde in:</label>
-        <input type="text" id="tweedewaarde" placeholder="vul een numerieke waarde in"><br>
+        <input type="text" id="tweedewaarde" placeholder="numerieke waarde verplicht"><br>
+        </div>
+
 
         <!--Twee knoppen voor optellen en aftrekken-->
         <div class="buttonRow">
-        <button id='resetBtn'>- CE -   reset</button>
-        <button id='optelBtn'>Optellen +</button>
-        <button id='aftrekBtn'>Aftrekken -</button>
-        <button id='deelBtn'>Delen door /</button>
-        <button id='vermBtn'>Vermenigvuldig *</button>
+        <button id='resetBtn'>CE</button>
+        <button id='optelBtn'>+</button>
+        <button id='aftrekBtn'>-</button>
+        <button id='deelBtn'>/</button>
+        <button id='vermBtn'>*</button>
         </div>
         
         <!--Resultaat op scherm zetten-->
-        <p id='result'></p><br>
-        <p>Het resultaat wodt automatisch bewaard in de eerste waarde. Totdat u reset gebruikt!</p>
+        <p id='result' style = "color:red; font-size: 25px; font-weight: bold;"></p><br>
+        <p><h3>Het resultaat wodt automatisch bewaard in de eerste waarde. Totdat u CE gebruikt!</h3></p>
     </div>
 </body>
 </html>
