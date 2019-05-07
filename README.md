@@ -1,6 +1,6 @@
 # Rekenmachine
-Very simple calculator. Only plus and minus.
-added: 2 extra calculation / and *
+Very simple calculator. Only plus and minus.<br>
+added: 2 extra calculation / and *<br>
 added: reset button and save solution to first value until reset
 
 
