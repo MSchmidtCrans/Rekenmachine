@@ -1,7 +1,7 @@
 # Rekenmachine
 Very simple calculator. Only plus and minus.<br>
-added: 2 extra calculation / and *<br>
-added: reset button and save solution to first value until reset
+added: 2 extra calculation / and <br>
+added: CSS styling
 
 
 1. Set up skeleton html file. -DONE-
