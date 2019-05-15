@@ -3,7 +3,7 @@ Very simple calculator. Only plus and minus.<br>
 added: 2 extra functions calculation / and * <br>
 added: CSS styling
 
-Demo page: https://supersmitty2018.github.io/Rekenmachine/
+Demo page: https://mschmidtcrans.github.io/Rekenmachine/
 
 1. Set up skeleton html file. -DONE-
 
